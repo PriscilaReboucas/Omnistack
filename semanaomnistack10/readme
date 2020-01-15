@@ -1,0 +1,71 @@
+*******************Semana 01 /13/01/2020********************************************
+Configuração ambiente: OmniStack
+
+nodejs -- javascript (linguagem navegador consegue atender)
+
+1-instalar chocolatey  (gerenciador de pacotes) no power shell como adm
+2-depois instalar o node pela instrução do chocolatey.
+3-Verificar a versão instalada.
+node -v
+4-npm (node package manager do node, para instalar pacotes para a aplicação, biblioteca, integracao de api (envio de email..)) npm -v
+5-Yarn (Gerenciador de pacotes mais rapido) yarn -v (versão)
+
+6-Instalação do node 
+Extensão:
+Material icon theme
+Dracula
+
+react
+react native
+expou
+mongo db
+
+********************Semana 2 14/01/2020********************************************
+nodejs
+
+api restful -- aplicação nao tem a parte visual no backend.
+
+parte visual feita pelo react e react native.
+
+
+
+Backend api restful
+Passos
+
+mkdir - cria pasta
+d: vai para outra unidaded
+instalar yarn init -y cria arquivo package.json
+instalar yarn add express - instala as dependencias do express
+instalar extensão no chrome jsonviewer
+yarn dev restarta a aplicação
+instalar yarn add nodemon -D dependencia de desenvolvimento que observa as alterações do código para refletir na aplicação
+so utilizada enquanto estiver em desenvolvimento, não vai para produção quando a aplicação ficar online.
+executa no terminal  yarn nodemon index.js para que as alterações sejam refletidas ao salvar
+instalar o Insomnia para testar as rotas: get, post, put, delete...
+criar conta no mongodbatlas - servidor com a base de dados online
+database access dentro do servidor (cluster) criar usuario e senha
+network access permitir acesso a um determinado ip
+Clusters - connect nodejs 3.0 - mongodb+srv://Priscila:<password>@cluster0-edjru.mongodb.net/test?retryWrites=true&w=majority
+ir para aplicação e rodar yarn add mongoose -- faz a conexão com mongo
+
+na aplicação criar a pasta scr e mover o arquivo index.js
+(// funcao que recebe dois parametros fixos
+//Métodos http: GET, POST , PUT ,DELETE padrões adotados pelo conceito restful
+// Tipos de parêmetros
+// Query params: request.query (filtros,paginacão,ordenação) são na maioria das vezes usados no método get(lista com filtro de busca)
+ // Rout  params: request.params  método put e delete, (Identificar um recurso na aplicação ou remoção)
+// Body : request.body Dados para alteração ou criação de um registro
+
+// MongoDB (Não-relacional))
+
+yarn axios - instalar biblioteca - faz chamadas para outras apis disponíveis
+
+
+
+
+Frontend react e react native
+
+
+
+
+

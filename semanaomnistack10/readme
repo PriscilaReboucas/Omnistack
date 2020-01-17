@@ -65,6 +65,14 @@ yarn axios - instalar biblioteca - faz chamadas para outras apis disponíveis
 
 Frontend react e react native
 
+Utilizar uma ferramenta para gerar : Comando yarn create react-app <nomedapasta>
+	instala todos os pacotes ....
+//Componente -- Bloco isolado de html, css, Js o qual não interfere no restante da aplicação, 
+//Estado -- Informações mantidas pelo componente (Imutabilidade -- conceito) 
+//Propriedade Informações que um componente PAI passa para o componente FILHO. 
+	
+	
+
 
 
 

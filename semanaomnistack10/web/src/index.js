@@ -1,7 +1,9 @@
+//importa em todo arquivo que for utilizar html.
 import React from 'react';
+// da habilidade do react de se comunicar com a árvore de elementos
 import ReactDOM from 'react-dom';
-
-import App from './App'; // arquivo do projeto
-
+// arquivo do projeto
+import App from './App'; 
+//arquivo principal da aplicação
 ReactDOM.render(<App />, document.getElementById('root'));
 
